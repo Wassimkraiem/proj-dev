@@ -19,8 +19,8 @@
     <main>
         <section>
             <img src="images/house1.png" alt="Woodland Retreat">
-            <h2>Cette charmante maison nichée dans un quartier paisible allie de manière captivante des éléments contemporains et
-            rustiques, en faisant une oasis sereine..</h2>
+            <h2>Cette charmante maison nichée dans un quartier paisible allie de manière captivante des éléments
+                contemporains et rustiques, en faisant une oasis sereine.</h2>
             <p>Cette maison est située dans un quartier paisible.</p>
             <h2>Caractéristiques</h2>
             <table>
@@ -38,15 +38,17 @@
                 </tr>
                 <tr>
                     <td>Prix</td>
-                    <td>100,000 €</td>
+                    <td id="price">100,000 €</td>
                 </tr>
             </table>
-            <p>Pour plus d'informations, consultez <a href="https://www.example.com" target="_blank">cette page</a>.</p>
+            <button id="convert-btn" onclick="toggleCurrency()">Convertir en TND</button>
         </section>
     </main>
     <footer>
         <p>Source: <a href="https://www.example.com" target="_blank">Site de l'immobilier</a></p>
     </footer>
+
+    <script src="js/converter.js"></script>
 </body>
 
 </html>
