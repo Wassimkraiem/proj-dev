@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/sign-in.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Connexion - Vente de Maisons</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Se connecter à votre compte</h1>
+        </div>
+    </header>
+
+    <main>
+        <section class="sign-in-form">
+            <h2>Connexion</h2>
+            <form id="signInForm" action="#" method="post">
+                <div class="form-group">
+                    <label for="username">Nom d'utilisateur</label>
+                    <input type="text" id="username" name="username" required>
+                    <span id="usernameError" class="error-message"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Mot de passe</label>
+                    <input type="password" id="password" name="password" required>
+                    <span id="passwordError" class="error-message"></span>
+                </div>
+
+                <a href="index.html" class="button">Se Connecter </a>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Vente de Maisons | <a href="index.html">Retour à l'accueil</a></p>
+    </footer>
+
+    <script src="js/sign-in.js"></script>
+</body>
+
+</html>
